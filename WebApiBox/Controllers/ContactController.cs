@@ -40,5 +40,9 @@ namespace WebApiBox.Controllers
             return contactRepository.Update(item);
         }
 
+        public IHttpActionResult Authorize()
+        {
+            return Ok("Autorizado");
+        }
     }
 }
